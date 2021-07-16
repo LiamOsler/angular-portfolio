@@ -5,39 +5,41 @@
 </div>
 
 
-<div class="d-flex">
-  <ul ngbNav #nav="ngbNav" class="nav-pills" orientation="vertical">
-    <li ngbNavItem="web">
-      <a ngbNavLink>Web Development and Design</a>
-      <ng-template ngbNavContent>
-        <h1>Web development projects</h1>
-      </ng-template>
-    </li>
-    <li ngbNavItem="web-map">
-      <a ngbNavLink>Web Mapping</a>
-      <ng-template ngbNavContent>
-        <h1>Web mapping projects</h1>
-      </ng-template>
-    </li>
-    <li ngbNavItem="GIS">
-      <a ngbNavLink>GIS</a>
-      <ng-template ngbNavContent>
-        <h1>Geographic Information Systems and Sciences</h1>
-      </ng-template>
-    </li>
-    <li ngbNavItem="Photography">
-      <a ngbNavLink>Photography</a>
-      <ng-template ngbNavContent>
-        <h1>Photography</h1>
-      </ng-template>
-    </li>
-    <li ngbNavItem="Art and Design">
-      <a ngbNavLink>Art and Design</a>
-      <ng-template ngbNavContent>
-        <h1>Art and Design</h1>
-      </ng-template>
-    </li>
-  </ul>
+<div class="container">
+  <div class="d-flex">
+    <ul ngbNav #nav="ngbNav" class="nav flex-column" orientation="vertical">
+      <li ngbNavItem="web">
+        <a ngbNavLink>Web Development and Design</a>
+        <ng-template ngbNavContent>
+          <h1>Web development projects</h1>
+        </ng-template>
+      </li>
+      <li ngbNavItem="web-map">
+        <a ngbNavLink>Web Mapping</a>
+        <ng-template ngbNavContent>
+          <h1>Web mapping projects</h1>
+        </ng-template>
+      </li>
+      <li ngbNavItem="GIS">
+        <a ngbNavLink>GIS</a>
+        <ng-template ngbNavContent>
+          <h1>Geographic Information Systems and Sciences</h1>
+        </ng-template>
+      </li>
+      <li ngbNavItem="Photography">
+        <a ngbNavLink>Photography</a>
+        <ng-template ngbNavContent>
+          <h1>Photography</h1>
+        </ng-template>
+      </li>
+      <li ngbNavItem="Art and Design">
+        <a ngbNavLink>Art and Design</a>
+        <ng-template ngbNavContent>
+          <h1>Art and Design</h1>
+        </ng-template>
+      </li>
+    </ul>
 
-  <div [ngbNavOutlet]="nav" class="ml-4"></div>
+    <div [ngbNavOutlet]="nav" class="ml-4"></div>
+  </div>
 </div>

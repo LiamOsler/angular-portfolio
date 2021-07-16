@@ -9,6 +9,8 @@ import { MainComponent } from './main/main.component';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WebMappingComponent } from './web-mapping/web-mapping.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MainComponent,
     BlogComponent,
     ProjectsComponent,
+    WebMappingComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
