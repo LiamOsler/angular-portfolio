@@ -13,6 +13,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WebMappingComponent } from './web-mapping/web-mapping.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { WebDevelopmentComponent } from './web-development/web-development.component';
+import { GisComponent } from './gis/gis.component';
+import { PhotographyComponent } from './photography/photography.component';
+import { DesignComponent } from './design/design.component';
 
 
 
@@ -25,6 +29,10 @@ import { MatButtonModule } from '@angular/material/button';
     BlogComponent,
     ProjectsComponent,
     WebMappingComponent,
+    WebDevelopmentComponent,
+    GisComponent,
+    PhotographyComponent,
+    DesignComponent,
   ],
   imports: [
     BrowserModule,
