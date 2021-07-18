@@ -4,7 +4,7 @@
 
 <div class="container">
   <div class="d-flex">
-    <ul ngbNav #nav="ngbNav" class="nav flex-column" orientation="vertical">
+    <ul ngbNav #nav="ngbNav" class="nav " orientation="vertical">
       <li ngbNavItem="web">
         <a ngbNavLink>Web Development</a>
         <ng-template ngbNavContent>
@@ -17,6 +17,13 @@
         <ng-template ngbNavContent>
           <h1>Web mapping projects</h1>
           <app-web-mapping></app-web-mapping>
+        </ng-template>
+      </li>
+      <li ngbNavItem="Data Science">
+        <a ngbNavLink>Data Science</a>
+        <ng-template ngbNavContent>
+          <h1>Data Science</h1>
+          <app-data-science></app-data-science>
         </ng-template>
       </li>
       <li ngbNavItem="GIS">

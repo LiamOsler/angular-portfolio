@@ -17,6 +17,7 @@ import { WebDevelopmentComponent } from './web-development/web-development.compo
 import { GisComponent } from './gis/gis.component';
 import { PhotographyComponent } from './photography/photography.component';
 import { DesignComponent } from './design/design.component';
+import { DataScienceComponent } from './data-science/data-science.component';
 
 
 
@@ -33,6 +34,7 @@ import { DesignComponent } from './design/design.component';
     GisComponent,
     PhotographyComponent,
     DesignComponent,
+    DataScienceComponent,
   ],
   imports: [
     BrowserModule,
