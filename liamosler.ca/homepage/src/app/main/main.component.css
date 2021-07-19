@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.jumbotron h1{
+    font-size: 400%;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -32,5 +36,10 @@
   
   .fa-github{
     background-color: #4078c0;
+    color: white;
+  }
+
+  .fa-envelope{
+    background-color: #003985;
     color: white;
   }
