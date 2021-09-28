@@ -1,2 +1,6 @@
 .e2e-iframe-trusted-src{
 }
+
+body{
+    overflow: hidden;
+}

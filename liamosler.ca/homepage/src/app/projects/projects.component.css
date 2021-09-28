@@ -22,3 +22,7 @@ ul {
 p{
     margin-right: 32px;
 }
+
+mat-card{
+    margin-bottom: 2em;
+}

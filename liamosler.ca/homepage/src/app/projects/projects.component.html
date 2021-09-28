@@ -1,7 +1,4 @@
-<div class="jumbotron">
-  <h1>Projects</h1>
-</div>
-
+<br><br>
 <div class="container">
   <div class="d-flex">
     <ul ngbNav #nav="ngbNav" class="nav " orientation="vertical">
@@ -19,13 +16,6 @@
           <app-web-mapping></app-web-mapping>
         </ng-template>
       </li>
-      <li ngbNavItem="Data Science">
-        <a ngbNavLink>Data Science</a>
-        <ng-template ngbNavContent>
-          <h1>Data Science</h1>
-          <app-data-science></app-data-science>
-        </ng-template>
-      </li>
       <li ngbNavItem="GIS">
         <a ngbNavLink>GIS</a>
         <ng-template ngbNavContent>
@@ -33,11 +23,25 @@
           <app-gis></app-gis>
         </ng-template>
       </li>
+      <li ngbNavItem="Data Science">
+        <a ngbNavLink>Data Science</a>
+        <ng-template ngbNavContent>
+          <h1>Data Science</h1>
+          <app-data-science></app-data-science>
+        </ng-template>
+      </li>
       <li ngbNavItem="Art and Design">
         <a ngbNavLink>Art and Design</a>
         <ng-template ngbNavContent>
           <h1>Art and Design</h1>
           <app-design></app-design>
+        </ng-template>
+      </li>
+      <li ngbNavItem="Photography">
+        <a ngbNavLink>Photography</a>
+        <ng-template ngbNavContent>
+          <h1>Photography</h1>
+          <app-photography></app-photography>
         </ng-template>
       </li>
     </ul>

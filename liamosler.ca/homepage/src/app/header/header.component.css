@@ -1,3 +1,28 @@
 .nav-item{
     border-radius: 0;
+    background-color: #e9ecef;
+}
+
+.nav-tabs{
+    background-color: #e9ecef;
+}
+
+
+#ngb-nav-0.nav-link.active{
+    color: white;
+    background-color: #007bff;
+    border-radius: .5em;
+}
+
+
+#ngb-nav-1.nav-link.active{
+    color: white;
+    background-color: #007bff;
+    border-radius: .5em;
+}
+
+#ngb-nav-2.nav-link.active{
+    color: white;
+    background-color: #007bff;
+    border-radius: .5em;
 }
